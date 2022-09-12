@@ -20,7 +20,8 @@ services:
       MYSQL_USER: "root"
       MYSQL_PASSWORD: "password"
       MYSQL_DATABASE: "analytics"
-      ADVERTISER_IDS: "1,3"
+      METAFLOW_RUN_ADVERTISERIDS: "1,3"
+      USER: kristijan
     depends_on: [db]
 
   s3-test:
